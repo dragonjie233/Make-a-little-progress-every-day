@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2019.9.15 [homeword]</title>
+<style type="text/css">
+.b1 {
+	width: 40%;
+	margin: auto;
+}
+
+h2 {
+	text-align: center;
+}
+
+#text,#password {
+	width: 100%;
+	height: 20px;
+	border-radius: 3px;
+	border: 1px solid #989a9a;
+}
+
+input[type="text"]:focus,input[type="password"]:focus {
+	outline: none;
+	box-shadow: 0 0 0 3px #09a0ce78;
+}
+
+input {
+	margin-top: 10px;
+}
+
+p {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+input[id="submit1"] {
+	height: 30px;
+	width: 45px;
+	background-color: #099ECC;
+	border-style: none;
+	border: 2px solid #0794bf;
+	color: white;
+	border-radius: 3px;
+}
+
+input[id="submit2"] {
+	height: 30px;
+	width: 45px;
+	background-color: white;
+	border-style: none;
+	border: 2px solid #099ecc;
+	color: #099ecc;
+	border-radius: 3px;
+}
+
+input[id="submit3"] {
+	height: 30px;
+	background-color: white;
+	border-style: none;
+	border: 2px solid #bfcaca;
+	border-radius: 3px;
+}
+</style>
+</head>
+<body>
+	<div class="b1">
+		<h2>登录</h2>
+		<div class="form">
+			<form action="" method="post">
+				<p>用户名</p><input type="text" name="" id="text"/><br/>
+				<p>密码</p><input type="password" name="" id="password"/><br/>
+				<input type="button" value="登录" id="submit1"/>
+				<input type="button" value="注册" id="submit2"/>
+				<input type="button" value="演示样式" id="submit3"/>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
